@@ -1,0 +1,28 @@
+{
+	"name": "bambulab-filaments",
+	"version": "0.1.0",
+	"description": "A list of all of their current filaments sorted by their code.",
+	"private": true,
+	"type": "module",
+	"main": "workflow/index.js",
+	"scripts": {
+		"start": "node .",
+		"clear": "node . clear",
+		"publish": "node . publish"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/oscarmarcelo/bambulab-filaments.git"
+	},
+	"author": "Oscar Marcelo (https://oscarmarcelo.com)",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/oscarmarcelo/bambulab-filaments/issues"
+	},
+	"homepage": "https://github.com/oscarmarcelo/bambulab-filaments#readme",
+	"devDependencies": {
+		"gh-pages": "^6.3.0",
+		"globby": "^14.0.2",
+		"sharp": "^0.33.5"
+	}
+}

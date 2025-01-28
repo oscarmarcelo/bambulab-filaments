@@ -1,0 +1,440 @@
+{
+	"data": {
+		"product": {
+			"id": "gid://shopify/Product/8472512037212",
+			"handle": "pla-basic-gradient",
+			"title": "PLA Basic Gradient",
+			"vendor": "Bambu Lab EU",
+			"availableForSale": true,
+			"onlineStoreUrl": "https://eu.store.bambulab.com/en-pt/products/pla-basic-gradient",
+			"tags": [
+				"Compatible with AMS",
+				"Compatible with AMS lite",
+				"Cosmetic",
+				"filaments",
+				"For A1 Series",
+				"For P1 Series",
+				"For X1 Series",
+				"Multi",
+				"On Sale"
+			],
+			"publishedAt": "2023-07-19T14:05:39Z",
+			"priceRange": {
+				"maxVariantPrice": {
+					"amount": "28.93"
+				},
+				"minVariantPrice": {
+					"amount": "28.93"
+				}
+			},
+			"featuredImage": {
+				"id": "gid://shopify/ProductImage/72400471720284",
+				"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/NEW_dfcd0898-c0ff-4bca-ae85-a2b392846ea5.jpg?v=1735263583"
+			},
+			"options": [
+				{
+					"id": "gid://shopify/ProductOption/11050991157596",
+					"name": "Type",
+					"values": [
+						"Filament with spool"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/353682948444",
+							"name": "Filament with spool"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/11050991190364",
+					"name": "Size",
+					"values": [
+						"1kg"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/353682981212",
+							"name": "1kg"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/11050991223132",
+					"name": "Color",
+					"values": [
+						"Cotton Candy Cloud (10907)",
+						"Blueberry Bubblegum (10905)",
+						"Pink Citrus (10903)",
+						"Mint Lime (10904)",
+						"Dusk Glare (10906)",
+						"Ocean to Meadow (10902)",
+						"Arctic Whisper (10900)",
+						"Solar Breeze (10901)"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/8828590915932",
+							"name": "Cotton Candy Cloud (10907)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8828590883164",
+							"name": "Blueberry Bubblegum (10905)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8828590948700",
+							"name": "Pink Citrus (10903)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8828590981468",
+							"name": "Mint Lime (10904)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8855686185308",
+							"name": "Dusk Glare (10906)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/353683013980",
+							"name": "Ocean to Meadow (10902)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/353683079516",
+							"name": "Arctic Whisper (10900)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/353683046748",
+							"name": "Solar Breeze (10901)"
+						}
+					]
+				}
+			],
+			"images": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductImage/72400471720284",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/NEW_dfcd0898-c0ff-4bca-ae85-a2b392846ea5.jpg?v=1735263583",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/50393909985628",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/2_57830414-003d-428d-809c-4cb094f39ff2.png?v=1735263583",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/72400471687516",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/NEW_dd231a9d-747a-4470-8068-22e34428d2d7.jpg?v=1735263583",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/72400471753052",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/N_EW.jpg?v=1735263583",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/72400471654748",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/green_NEW.jpg?v=1734406524",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/72504121229660",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/new_c73b9733-d5c2-46ed-a4b2-06c0f64b4f08.jpg?v=1735208738",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/53811634012508",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/A00-M2-1.75-1000-spl.png?v=1735208738",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/50199127458140",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/gradient2.png?v=1735208738",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/50154712564060",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/5a241ce2f6c79abb9cfe3cb1414f1bf1.png?v=1735208738",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/50154712662364",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/e40cbbf6e7fed96557d8e2be99e4b9cf.png?v=1735208738",
+						"altText": null
+					}
+				]
+			},
+			"variants": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductVariant/53638219039068",
+						"availableForSale": false,
+						"quantityAvailable": 0,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Cotton Candy Cloud (10907)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/72400471720284",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/NEW_dfcd0898-c0ff-4bca-ae85-a2b392846ea5.jpg?v=1735263583",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1kg / Cotton Candy Cloud (10907)",
+						"sku": "A00-M7-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/53638219006300",
+						"availableForSale": false,
+						"quantityAvailable": 0,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Blueberry Bubblegum (10905)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/72400471753052",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/N_EW.jpg?v=1735263583",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1kg / Blueberry Bubblegum (10905)",
+						"sku": "A00-M5-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/53638219071836",
+						"availableForSale": true,
+						"quantityAvailable": 154,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Pink Citrus (10903)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/72400471687516",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/NEW_dd231a9d-747a-4470-8068-22e34428d2d7.jpg?v=1735263583",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1kg / Pink Citrus (10903)",
+						"sku": "A00-M3-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/53638219104604",
+						"availableForSale": true,
+						"quantityAvailable": 57,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Mint Lime (10904)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/72400471654748",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/green_NEW.jpg?v=1734406524",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1kg / Mint Lime (10904)",
+						"sku": "A00-M4-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/53687078420828",
+						"availableForSale": true,
+						"quantityAvailable": 127,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Dusk Glare (10906)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/72504121229660",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/new_c73b9733-d5c2-46ed-a4b2-06c0f64b4f08.jpg?v=1735208738",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1kg / Dusk Glare (10906)",
+						"sku": "A00-M6-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/46901930557788",
+						"availableForSale": true,
+						"quantityAvailable": 1604,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Ocean to Meadow (10902)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/53811634012508",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/A00-M2-1.75-1000-spl.png?v=1735208738",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1kg / Ocean to Meadow (10902)",
+						"sku": "A00-M2-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/46901930492252",
+						"availableForSale": true,
+						"quantityAvailable": 407,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Arctic Whisper (10900)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/50154712564060",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/5a241ce2f6c79abb9cfe3cb1414f1bf1.png?v=1735208738",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1kg / Arctic Whisper (10900)",
+						"sku": "A00-M0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/46901930525020",
+						"availableForSale": true,
+						"quantityAvailable": 1150,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Solar Breeze (10901)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/50154712662364",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/e40cbbf6e7fed96557d8e2be99e4b9cf.png?v=1735208738",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1kg / Solar Breeze (10901)",
+						"sku": "A00-M1-1.75-1000-SPL"
+					}
+				]
+			},
+			"compareAtPriceRange": {
+				"maxVariantPrice": {
+					"amount": "0.0"
+				},
+				"minVariantPrice": {
+					"amount": "0.0"
+				}
+			}
+		}
+	},
+	"extensions": {
+		"context": {
+			"country": "PT",
+			"language": "EN"
+		}
+	}
+}

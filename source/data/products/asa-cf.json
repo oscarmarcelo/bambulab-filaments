@@ -1,0 +1,139 @@
+{
+	"data": {
+		"product": {
+			"id": "gid://shopify/Product/9598911512924",
+			"handle": "asa-cf",
+			"title": "ASA-CF",
+			"vendor": "Bambu Lab EU",
+			"availableForSale": true,
+			"onlineStoreUrl": "https://eu.store.bambulab.com/en-pt/products/asa-cf",
+			"tags": [
+				"Black",
+				"Carbon Fiber",
+				"Compatible with AMS",
+				"Fiber Reinforced",
+				"filaments",
+				"For P1 Series",
+				"For X1 Series"
+			],
+			"publishedAt": "2024-09-25T06:40:37Z",
+			"priceRange": {
+				"maxVariantPrice": {
+					"amount": "40.29"
+				},
+				"minVariantPrice": {
+					"amount": "40.29"
+				}
+			},
+			"featuredImage": {
+				"id": "gid://shopify/ProductImage/55748780884316",
+				"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/1_db8508ce-9151-474f-8fc4-e57ec533edc0.jpg?v=1727057443"
+			},
+			"options": [
+				{
+					"id": "gid://shopify/ProductOption/12054293381468",
+					"name": "Type",
+					"values": [
+						"Filament with spool"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/5270579970396",
+							"name": "Filament with spool"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/12054293414236",
+					"name": "Size",
+					"values": [
+						"1 kg"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/5270580003164",
+							"name": "1 kg"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/12054293447004",
+					"name": "Color",
+					"values": [
+						"Black (46101)"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/5270580035932",
+							"name": "Black (46101)"
+						}
+					]
+				}
+			],
+			"images": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductImage/55748780884316",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/1_db8508ce-9151-474f-8fc4-e57ec533edc0.jpg?v=1727057443",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/55748782195036",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/2_863d5acd-9adf-4f7c-96ee-0072b52b66c1.png?v=1727057460",
+						"altText": null
+					}
+				]
+			},
+			"variants": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductVariant/49410590409052",
+						"availableForSale": true,
+						"quantityAvailable": 2444,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Black (46101)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/55748780884316",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/1_db8508ce-9151-474f-8fc4-e57ec533edc0.jpg?v=1727057443",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "40.29"
+						},
+						"title": "Filament with spool / 1 kg / Black (46101)",
+						"sku": "B51-K0-1.75-1000-SPL"
+					}
+				]
+			},
+			"compareAtPriceRange": {
+				"maxVariantPrice": {
+					"amount": "0.0"
+				},
+				"minVariantPrice": {
+					"amount": "0.0"
+				}
+			}
+		}
+	},
+	"extensions": {
+		"context": {
+			"country": "PT",
+			"language": "EN"
+		}
+	}
+}

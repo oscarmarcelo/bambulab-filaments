@@ -1,0 +1,138 @@
+{
+	"data": {
+		"product": {
+			"id": "gid://shopify/Product/9488495837532",
+			"handle": "support-for-abs",
+			"title": "Support for ABS",
+			"vendor": "Bambu Lab EU",
+			"availableForSale": true,
+			"onlineStoreUrl": "https://eu.store.bambulab.com/en-pt/products/support-for-abs",
+			"tags": [
+				"Compatible with AMS",
+				"filaments",
+				"For P1 Series",
+				"For X1 Series",
+				"Support",
+				"White"
+			],
+			"publishedAt": "2024-07-25T08:27:30Z",
+			"priceRange": {
+				"maxVariantPrice": {
+					"amount": "17.56"
+				},
+				"minVariantPrice": {
+					"amount": "17.56"
+				}
+			},
+			"featuredImage": {
+				"id": "gid://shopify/ProductImage/55004005073244",
+				"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/20240704-172034.png?v=1721114913"
+			},
+			"options": [
+				{
+					"id": "gid://shopify/ProductOption/11928531829084",
+					"name": "Type",
+					"values": [
+						"Filament with spool"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/5043061948764",
+							"name": "Filament with spool"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/11928531861852",
+					"name": "Size",
+					"values": [
+						"0.5 kg"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/5043061981532",
+							"name": "0.5 kg"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/11928531796316",
+					"name": "Color",
+					"values": [
+						"White (66100)"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/5043061915996",
+							"name": "White (66100)"
+						}
+					]
+				}
+			],
+			"images": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductImage/55004005073244",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/20240704-172034.png?v=1721114913",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/55072821084508",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/Frame_1123860816.png?v=1721636912",
+						"altText": null
+					}
+				]
+			},
+			"variants": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductVariant/49063577420124",
+						"availableForSale": true,
+						"quantityAvailable": 1936,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "0.5 kg"
+							},
+							{
+								"name": "Color",
+								"value": "White (66100)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/55004005073244",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/20240704-172034.png?v=1721114913",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "17.56"
+						},
+						"title": "Filament with spool / 0.5 kg / White (66100)",
+						"sku": "S06-W0-1.75-500-SPL"
+					}
+				]
+			},
+			"compareAtPriceRange": {
+				"maxVariantPrice": {
+					"amount": "0.0"
+				},
+				"minVariantPrice": {
+					"amount": "0.0"
+				}
+			}
+		}
+	},
+	"extensions": {
+		"context": {
+			"country": "PT",
+			"language": "EN"
+		}
+	}
+}

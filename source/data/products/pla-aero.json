@@ -1,0 +1,184 @@
+{
+	"data": {
+		"product": {
+			"id": "gid://shopify/Product/8489531801948",
+			"handle": "pla-aero",
+			"title": "PLA Aero",
+			"vendor": "Bambu Lab EU",
+			"availableForSale": true,
+			"onlineStoreUrl": "https://eu.store.bambulab.com/en-pt/products/pla-aero",
+			"tags": [
+				"Black",
+				"Compatible with AMS",
+				"Compatible with AMS lite",
+				"Engineering",
+				"filaments",
+				"For A1 Series",
+				"For P1 Series",
+				"For X1 Series",
+				"Specialty",
+				"White"
+			],
+			"publishedAt": "2023-08-03T13:07:34Z",
+			"priceRange": {
+				"maxVariantPrice": {
+					"amount": "49.61"
+				},
+				"minVariantPrice": {
+					"amount": "49.61"
+				}
+			},
+			"featuredImage": {
+				"id": "gid://shopify/ProductImage/50347533959516",
+				"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/AERO_bc503e27-6fed-4b8e-a505-342f6050dc27.png?v=1721614041"
+			},
+			"options": [
+				{
+					"id": "gid://shopify/ProductOption/11070058037596",
+					"name": "Type",
+					"values": [
+						"Filament with spool"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/353699070300",
+							"name": "Filament with spool"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/11070058070364",
+					"name": "Size",
+					"values": [
+						"1kg"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/353699103068",
+							"name": "1kg"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/11070058103132",
+					"name": "Color",
+					"values": [
+						"White (14102)",
+						"Gray (14104)"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/353699135836",
+							"name": "White (14102)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/5053056909660",
+							"name": "Gray (14104)"
+						}
+					]
+				}
+			],
+			"images": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductImage/50347533959516",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/AERO_bc503e27-6fed-4b8e-a505-342f6050dc27.png?v=1721614041",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/50347533926748",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/20230803-121208.png?v=1721614041",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/55042770501980",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/Aero_1.png?v=1721354911",
+						"altText": null
+					}
+				]
+			},
+			"variants": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductVariant/46953506505052",
+						"availableForSale": true,
+						"quantityAvailable": 407,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "White (14102)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/50347533959516",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/AERO_bc503e27-6fed-4b8e-a505-342f6050dc27.png?v=1721614041",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "49.61"
+						},
+						"title": "Filament with spool / 1kg / White (14102)",
+						"sku": "A11-W0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/49078101279068",
+						"availableForSale": true,
+						"quantityAvailable": 458,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Gray (14104)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/55042770501980",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/Aero_1.png?v=1721354911",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "49.61"
+						},
+						"title": "Filament with spool / 1kg / Gray (14104)",
+						"sku": "A11-D0-1.75-1000-SPL"
+					}
+				]
+			},
+			"compareAtPriceRange": {
+				"maxVariantPrice": {
+					"amount": "0.0"
+				},
+				"minVariantPrice": {
+					"amount": "0.0"
+				}
+			}
+		}
+	},
+	"extensions": {
+		"context": {
+			"country": "PT",
+			"language": "EN"
+		}
+	}
+}

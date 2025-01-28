@@ -1,0 +1,488 @@
+{
+	"data": {
+		"product": {
+			"id": "gid://shopify/Product/7963534721243",
+			"handle": "pla-cf",
+			"title": "PLA-CF",
+			"vendor": "Bambu Lab",
+			"availableForSale": true,
+			"onlineStoreUrl": "https://eu.store.bambulab.com/en-pt/products/pla-cf",
+			"tags": [
+				"Black",
+				"Blue",
+				"Carbon Fiber",
+				"Compatible with AMS",
+				"Compatible with AMS lite",
+				"Fiber Reinforced",
+				"filaments",
+				"For A1 Series",
+				"For P1 Series",
+				"For X1 Series",
+				"Gray",
+				"Green",
+				"Purple",
+				"Red",
+				"sale"
+			],
+			"publishedAt": "2023-02-15T07:08:39Z",
+			"priceRange": {
+				"maxVariantPrice": {
+					"amount": "40.29"
+				},
+				"minVariantPrice": {
+					"amount": "37.2"
+				}
+			},
+			"featuredImage": {
+				"id": "gid://shopify/ProductImage/49956333388124",
+				"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/c0f99c4f6c04f5422dcd8db2da060392.png?v=1708912897"
+			},
+			"options": [
+				{
+					"id": "gid://shopify/ProductOption/10099350864091",
+					"name": "Type",
+					"values": [
+						"Filament with spool",
+						"Refill"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/962113372508",
+							"name": "Filament with spool"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/5128295350620",
+							"name": "Refill"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/10099350896859",
+					"name": "Size",
+					"values": [
+						"1 kg"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/353607221596",
+							"name": "1 kg"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/10099350929627",
+					"name": "Color",
+					"values": [
+						"Matcha Green (14500)",
+						"Burgundy Red (14200)",
+						"Jeans Blue (14600)",
+						"Lava Gray (14101)",
+						"Black (14100)",
+						"Royal Blue (14601)",
+						"Iris Purple (14700)"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/353607319900",
+							"name": "Matcha Green (14500)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/353607254364",
+							"name": "Burgundy Red (14200)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/353607287132",
+							"name": "Jeans Blue (14600)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/353607352668",
+							"name": "Lava Gray (14101)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/353607385436",
+							"name": "Black (14100)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/353607418204",
+							"name": "Royal Blue (14601)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/353607450972",
+							"name": "Iris Purple (14700)"
+						}
+					]
+				}
+			],
+			"images": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductImage/49956333388124",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/c0f99c4f6c04f5422dcd8db2da060392.png?v=1708912897",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/54271695585628",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLA-CF.jpg?v=1717494860",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/49956333486428",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/a607d88492630a4fc0e1169570fcd150.png?v=1717494860",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/49535473877340",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/Group2191.png?v=1717491303",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/49956333519196",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/5330081a75ef62e73afe0929195b72b8.png?v=1717491303",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/49535473680732",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/Group2194.png?v=1717491303",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/49956333453660",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/83c1bc164a2861ecc083568a0b017ba0.png?v=1717491303",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/49535473942876",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/Group2192.png?v=1717491303",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/49956882252124",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLA-CFBlack.jpg?v=1717491303",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/49535474041180",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/Group2195.png?v=1717491303",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/50774334931292",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLA-CFRoyalBlue.png?v=1717491303",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/50774335127900",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLA-CFIrisPurple.png?v=1717491303",
+						"altText": null
+					}
+				]
+			},
+			"variants": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductVariant/46797856342364",
+						"availableForSale": true,
+						"quantityAvailable": 351,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Matcha Green (14500)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/49956333388124",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/c0f99c4f6c04f5422dcd8db2da060392.png?v=1708912897",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "40.29"
+						},
+						"title": "Filament with spool / 1 kg / Matcha Green (14500)",
+						"sku": "A50-G7-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/46702306230620",
+						"availableForSale": true,
+						"quantityAvailable": 723,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Burgundy Red (14200)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/49956333486428",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/a607d88492630a4fc0e1169570fcd150.png?v=1717494860",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "40.29"
+						},
+						"title": "Filament with spool / 1 kg / Burgundy Red (14200)",
+						"sku": "A50-R4-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/46702306263388",
+						"availableForSale": true,
+						"quantityAvailable": 581,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Jeans Blue (14600)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/49956333519196",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/5330081a75ef62e73afe0929195b72b8.png?v=1717491303",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "40.29"
+						},
+						"title": "Filament with spool / 1 kg / Jeans Blue (14600)",
+						"sku": "A50-B9-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/46702306296156",
+						"availableForSale": true,
+						"quantityAvailable": 2774,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Lava Gray (14101)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/49956333453660",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/83c1bc164a2861ecc083568a0b017ba0.png?v=1717491303",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "40.29"
+						},
+						"title": "Filament with spool / 1 kg / Lava Gray (14101)",
+						"sku": "A50-D6-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/43944001994971",
+						"availableForSale": true,
+						"quantityAvailable": 3334,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Black (14100)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/49956882252124",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLA-CFBlack.jpg?v=1717491303",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "40.29"
+						},
+						"title": "Filament with spool / 1 kg / Black (14100)",
+						"sku": "A50-K0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47068316565852",
+						"availableForSale": true,
+						"quantityAvailable": 1197,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Royal Blue (14601)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/50774334931292",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLA-CFRoyalBlue.png?v=1717491303",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "40.29"
+						},
+						"title": "Filament with spool / 1 kg / Royal Blue (14601)",
+						"sku": "A50-B6-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47068316598620",
+						"availableForSale": true,
+						"quantityAvailable": 554,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Iris Purple (14700)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/50774335127900",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLA-CFIrisPurple.png?v=1717491303",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "40.29"
+						},
+						"title": "Filament with spool / 1 kg / Iris Purple (14700)",
+						"sku": "A50-P7-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/49200517448028",
+						"availableForSale": true,
+						"quantityAvailable": 2260,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Refill"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Black (14100)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/49956882252124",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLA-CFBlack.jpg?v=1717491303",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "37.2"
+						},
+						"title": "Refill / 1 kg / Black (14100)",
+						"sku": "A50-K0-1.75-1000-SPLFREE"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/49238028845404",
+						"availableForSale": true,
+						"quantityAvailable": 2783,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Refill"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Lava Gray (14101)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/49956333453660",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/83c1bc164a2861ecc083568a0b017ba0.png?v=1717491303",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "37.2"
+						},
+						"title": "Refill / 1 kg / Lava Gray (14101)",
+						"sku": "A50-D6-1.75-1000-SPLFREE"
+					}
+				]
+			},
+			"compareAtPriceRange": {
+				"maxVariantPrice": {
+					"amount": "0.0"
+				},
+				"minVariantPrice": {
+					"amount": "0.0"
+				}
+			}
+		}
+	},
+	"extensions": {
+		"context": {
+			"country": "PT",
+			"language": "EN"
+		}
+	}
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, shrink-to-fit=no">
+		<title>Bambu Lab Filaments</title>
+		<link href="styles.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="intro">
+				<h1>Bambu Lab Filaments</h1>
+				<p>A list of all of their current filaments sorted by their code.</p>
+			</div>
+			<div class="controls">
+				<label class="view-mode">
+					<span>Images</span>
+					<input type="checkbox" name="view"/>
+					<span>Colors</span>
+				</label>
+			</div>
+		</header>
+
+
+		<table>
+			<thead>
+				<tr>
+					<th rowspan=2></th>
+				</tr>
+				<tr>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+
+		<template id="head-link">
+			<th>
+				<a target="_blank"></a>
+			</th>
+		</template>
+
+		<template id="head">
+			<th>
+			</th>
+		</template>
+
+		<template id="row">
+			<tr>
+			</tr>
+		</template>
+
+		<template id="cell">
+			<td>
+				<div class="content">
+					<img class="image" loading="lazy" width=64>
+					<div class="colors"></div>
+					<div class="tooltip">
+						<div class="name"></div>
+						<div class="code"></div>
+						<ul class="types"></ul>
+					</div>
+				</div>
+			</td>
+		</template>
+
+		<template id="step">
+			<span class="step"></span>
+		</template>
+
+		<template id="type">
+			<li>
+				<a class="type" href=""></a>
+			</li>
+		</template>
+
+		<script src="scripts.js" type="module"></script>
+	</body>
+</html>

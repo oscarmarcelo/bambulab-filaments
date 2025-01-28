@@ -1,0 +1,357 @@
+{
+	"data": {
+		"product": {
+			"id": "gid://shopify/Product/8615954284892",
+			"handle": "tpu-95a-hf",
+			"title": "TPU 95A HF",
+			"vendor": "Bambu Lab EU",
+			"availableForSale": true,
+			"onlineStoreUrl": "https://eu.store.bambulab.com/en-pt/products/tpu-95a-hf",
+			"tags": [
+				"Black",
+				"Blue",
+				"filaments",
+				"For A1 Series",
+				"For P1 Series",
+				"For X1 Series",
+				"Gray",
+				"Red",
+				"White",
+				"Yellow"
+			],
+			"publishedAt": "2023-11-15T13:42:38Z",
+			"priceRange": {
+				"maxVariantPrice": {
+					"amount": "45.47"
+				},
+				"minVariantPrice": {
+					"amount": "45.47"
+				}
+			},
+			"featuredImage": {
+				"id": "gid://shopify/ProductImage/51508304576860",
+				"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_1.png?v=1717572279"
+			},
+			"options": [
+				{
+					"id": "gid://shopify/ProductOption/11213258457436",
+					"name": "Type",
+					"values": [
+						"Filament with spool"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/1002831708508",
+							"name": "Filament with spool"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/11213258490204",
+					"name": "Size",
+					"values": [
+						"1 kg"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/1002831741276",
+							"name": "1 kg"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/11213258522972",
+					"name": "Color",
+					"values": [
+						"White (51102)",
+						"Gray (51101)",
+						"Yellow (51400)",
+						"Blue (51600)",
+						"Red (51200)",
+						"Black (51100)"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/1002831839580",
+							"name": "White (51102)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/1002831872348",
+							"name": "Gray (51101)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/1002831905116",
+							"name": "Yellow (51400)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/1002831937884",
+							"name": "Blue (51600)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/1002831970652",
+							"name": "Red (51200)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/1002831774044",
+							"name": "Black (51100)"
+						}
+					]
+				}
+			],
+			"images": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductImage/51508304576860",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_1.png?v=1717572279",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/54284278464860",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPU_95A_HF.jpg?v=1717572224",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/51508304609628",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_5.png?v=1705910516",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/51528837071196",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPHHFWheel2.png?v=1717572279",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/51508304904540",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_4.png?v=1717572279",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/51508304937308",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_6.png?v=1717572279",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/51508304511324",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_3.png?v=1717572279",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/51508304544092",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_2.png?v=1717572279",
+						"altText": null
+					}
+				]
+			},
+			"variants": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductVariant/47305218752860",
+						"availableForSale": true,
+						"quantityAvailable": 2515,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "White (51102)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/51508304576860",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_1.png?v=1717572279",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "45.47"
+						},
+						"title": "Filament with spool / 1 kg / White (51102)",
+						"sku": "U00-W0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47305218785628",
+						"availableForSale": true,
+						"quantityAvailable": 2362,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Gray (51101)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/51508304609628",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_5.png?v=1705910516",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "45.47"
+						},
+						"title": "Filament with spool / 1 kg / Gray (51101)",
+						"sku": "U00-D0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47305218818396",
+						"availableForSale": true,
+						"quantityAvailable": 1185,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Yellow (51400)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/51508304904540",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_4.png?v=1717572279",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "45.47"
+						},
+						"title": "Filament with spool / 1 kg / Yellow (51400)",
+						"sku": "U00-Y0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47305218851164",
+						"availableForSale": true,
+						"quantityAvailable": 1200,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Blue (51600)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/51508304937308",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_6.png?v=1717572279",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "45.47"
+						},
+						"title": "Filament with spool / 1 kg / Blue (51600)",
+						"sku": "U00-B0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47305218883932",
+						"availableForSale": true,
+						"quantityAvailable": 1583,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Red (51200)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/51508304511324",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_3.png?v=1717572279",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "45.47"
+						},
+						"title": "Filament with spool / 1 kg / Red (51200)",
+						"sku": "U00-R0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47305218687324",
+						"availableForSale": true,
+						"quantityAvailable": 2724,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Black (51100)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/51508304544092",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/TPUHF_2.png?v=1717572279",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "45.47"
+						},
+						"title": "Filament with spool / 1 kg / Black (51100)",
+						"sku": "U00-K0-1.75-1000-SPL"
+					}
+				]
+			},
+			"compareAtPriceRange": {
+				"maxVariantPrice": {
+					"amount": "0.0"
+				},
+				"minVariantPrice": {
+					"amount": "0.0"
+				}
+			}
+		}
+	},
+	"extensions": {
+		"context": {
+			"country": "PT",
+			"language": "EN"
+		}
+	}
+}

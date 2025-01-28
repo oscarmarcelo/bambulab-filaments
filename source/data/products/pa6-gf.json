@@ -1,0 +1,446 @@
+{
+	"data": {
+		"product": {
+			"id": "gid://shopify/Product/8806001213788",
+			"handle": "pa6-gf",
+			"title": "PA6-GF",
+			"vendor": "Bambu Lab EU",
+			"availableForSale": true,
+			"onlineStoreUrl": "https://eu.store.bambulab.com/en-pt/products/pa6-gf",
+			"tags": [
+				"Black",
+				"Blue",
+				"Brown",
+				"Compatible with AMS",
+				"Engineering",
+				"Fiber Reinforced",
+				"filaments",
+				"For P1 Series",
+				"For X1 Series",
+				"Glass Fiber",
+				"Gray",
+				"Green",
+				"Orange",
+				"White",
+				"Yellow"
+			],
+			"publishedAt": "2024-03-28T12:12:26Z",
+			"priceRange": {
+				"maxVariantPrice": {
+					"amount": "65.1"
+				},
+				"minVariantPrice": {
+					"amount": "65.1"
+				}
+			},
+			"featuredImage": {
+				"id": "gid://shopify/ProductImage/53088663142748",
+				"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35952.jpg?v=1711078933"
+			},
+			"options": [
+				{
+					"id": "gid://shopify/ProductOption/11424676774236",
+					"name": "Type",
+					"values": [
+						"Filament with spool"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/1399665819996",
+							"name": "Filament with spool"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/11424676807004",
+					"name": "Size",
+					"values": [
+						"1 kg"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/1399665852764",
+							"name": "1 kg"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/11424676741468",
+					"name": "Color",
+					"values": [
+						"Blue (72600)",
+						"Orange (72200)",
+						"Yellow (72400)",
+						"Lime (72500)",
+						"Brown (72800)",
+						"White (72102)",
+						"Gray (72103)",
+						"Black (72104)"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/1399665557852",
+							"name": "Blue (72600)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/1399665590620",
+							"name": "Orange (72200)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/1399665623388",
+							"name": "Yellow (72400)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/1399665656156",
+							"name": "Lime (72500)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/1399665688924",
+							"name": "Brown (72800)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/1399665721692",
+							"name": "White (72102)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/1399665754460",
+							"name": "Gray (72103)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/1399665787228",
+							"name": "Black (72104)"
+						}
+					]
+				}
+			],
+			"images": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductImage/53088663142748",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35952.jpg?v=1711078933",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/53151950635356",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/14200d9cb8db37c75d38d9e2f4ba99c0.jpg?v=1711426866",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/53151950602588",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/6391ace427ade714b70fb966024ae804_22234fca-f82c-4f42-b0cc-0450f781b045.jpg?v=1711426866",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/53088663208284",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35945.jpg?v=1711426866",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/53153689076060",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35959_1.jpg?v=1711440357",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/53088662815068",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35966.jpg?v=1711440356",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/53088662913372",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35969.jpg?v=1711440356",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/53088662782300",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35967.jpg?v=1711440356",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/53088663175516",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35971c.jpg?v=1711440356",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/53088663241052",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35970c.jpg?v=1711440356",
+						"altText": null
+					}
+				]
+			},
+			"variants": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductVariant/47833416106332",
+						"availableForSale": true,
+						"quantityAvailable": 376,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Blue (72600)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/53088663142748",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35952.jpg?v=1711078933",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "65.1"
+						},
+						"title": "Filament with spool / 1 kg / Blue (72600)",
+						"sku": "N08-B0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47833416139100",
+						"availableForSale": true,
+						"quantityAvailable": 458,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Orange (72200)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/53088663208284",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35945.jpg?v=1711426866",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "65.1"
+						},
+						"title": "Filament with spool / 1 kg / Orange (72200)",
+						"sku": "N08-R0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47833416171868",
+						"availableForSale": true,
+						"quantityAvailable": 211,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Yellow (72400)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/53153689076060",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35959_1.jpg?v=1711440357",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "65.1"
+						},
+						"title": "Filament with spool / 1 kg / Yellow (72400)",
+						"sku": "N08-Y0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47833416204636",
+						"availableForSale": true,
+						"quantityAvailable": 294,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Lime (72500)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/53088662815068",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35966.jpg?v=1711440356",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "65.1"
+						},
+						"title": "Filament with spool / 1 kg / Lime (72500)",
+						"sku": "N08-G0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47833416237404",
+						"availableForSale": true,
+						"quantityAvailable": 157,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Brown (72800)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/53088662913372",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35969.jpg?v=1711440356",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "65.1"
+						},
+						"title": "Filament with spool / 1 kg / Brown (72800)",
+						"sku": "N08-N0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47833416270172",
+						"availableForSale": true,
+						"quantityAvailable": 674,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "White (72102)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/53088662782300",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35967.jpg?v=1711440356",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "65.1"
+						},
+						"title": "Filament with spool / 1 kg / White (72102)",
+						"sku": "N08-D0-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47833416302940",
+						"availableForSale": true,
+						"quantityAvailable": 585,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Gray (72103)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/53088663175516",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35971c.jpg?v=1711440356",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "65.1"
+						},
+						"title": "Filament with spool / 1 kg / Gray (72103)",
+						"sku": "N08-D1-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/47833416335708",
+						"availableForSale": true,
+						"quantityAvailable": 1523,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Black (72104)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/53088663241052",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/JP35970c.jpg?v=1711440356",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "65.1"
+						},
+						"title": "Filament with spool / 1 kg / Black (72104)",
+						"sku": "N08-K0-1.75-1000-SPL"
+					}
+				]
+			},
+			"compareAtPriceRange": {
+				"maxVariantPrice": {
+					"amount": "0.0"
+				},
+				"minVariantPrice": {
+					"amount": "0.0"
+				}
+			}
+		}
+	},
+	"extensions": {
+		"context": {
+			"country": "PT",
+			"language": "EN"
+		}
+	}
+}

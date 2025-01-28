@@ -1,0 +1,182 @@
+{
+	"data": {
+		"product": {
+			"id": "gid://shopify/Product/9439367463260",
+			"handle": "support-for-pla-petg",
+			"title": "Support for PLA/PETG",
+			"vendor": "Bambu Lab EU",
+			"availableForSale": true,
+			"onlineStoreUrl": "https://eu.store.bambulab.com/en-pt/products/support-for-pla-petg",
+			"tags": [
+				"Clear",
+				"Compatible with AMS",
+				"Compatible with AMS lite",
+				"filaments",
+				"For A1 Series",
+				"For P1 Series",
+				"For X1 Series",
+				"Support"
+			],
+			"publishedAt": "2024-07-09T06:24:37Z",
+			"priceRange": {
+				"maxVariantPrice": {
+					"amount": "38.23"
+				},
+				"minVariantPrice": {
+					"amount": "38.23"
+				}
+			},
+			"featuredImage": {
+				"id": "gid://shopify/ProductImage/54747136819548",
+				"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/3_333e81ce-72cf-4643-a79a-19afd5ac5866.jpg?v=1719971678"
+			},
+			"options": [
+				{
+					"id": "gid://shopify/ProductOption/11870804148572",
+					"name": "Type",
+					"values": [
+						"Filament with spool"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/4938449912156",
+							"name": "Filament with spool"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/11870804181340",
+					"name": "Size",
+					"values": [
+						"0.5 kg"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/4938449944924",
+							"name": "0.5 kg"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/11870804115804",
+					"name": "Color",
+					"values": [
+						"Nature (65102)",
+						"Black (65103)"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/4938449879388",
+							"name": "Nature (65102)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8764155298140",
+							"name": "Black (65103)"
+						}
+					]
+				}
+			],
+			"images": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductImage/54747136819548",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/3_333e81ce-72cf-4643-a79a-19afd5ac5866.jpg?v=1719971678",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/55072818004316",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/2_659728ee-2793-4f61-9b2f-6ddf6fcfb471.png?v=1721636856",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/49661502423388",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/supportforplablack.png?v=1715324620",
+						"altText": null
+					}
+				]
+			},
+			"variants": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductVariant/48921550553436",
+						"availableForSale": true,
+						"quantityAvailable": 3479,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "0.5 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Nature (65102)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/54747136819548",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/3_333e81ce-72cf-4643-a79a-19afd5ac5866.jpg?v=1719971678",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "38.23"
+						},
+						"title": "Filament with spool / 0.5 kg / Nature (65102)",
+						"sku": "S05-C0-1.75-500-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/53534477320540",
+						"availableForSale": true,
+						"quantityAvailable": 4308,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "0.5 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Black (65103)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/49661502423388",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/supportforplablack.png?v=1715324620",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "38.23"
+						},
+						"title": "Filament with spool / 0.5 kg / Black (65103)",
+						"sku": "S05-K0-1.75-500-SPL"
+					}
+				]
+			},
+			"compareAtPriceRange": {
+				"maxVariantPrice": {
+					"amount": "0.0"
+				},
+				"minVariantPrice": {
+					"amount": "0.0"
+				}
+			}
+		}
+	},
+	"extensions": {
+		"context": {
+			"country": "PT",
+			"language": "EN"
+		}
+	}
+}

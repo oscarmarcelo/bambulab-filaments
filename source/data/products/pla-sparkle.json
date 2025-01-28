@@ -1,0 +1,356 @@
+{
+	"data": {
+		"product": {
+			"id": "gid://shopify/Product/7969493156059",
+			"handle": "pla-sparkle",
+			"title": "PLA Sparkle",
+			"vendor": "Bambu Lab",
+			"availableForSale": true,
+			"onlineStoreUrl": "https://eu.store.bambulab.com/en-pt/products/pla-sparkle",
+			"tags": [
+				"Black",
+				"Compatible with AMS",
+				"Compatible with AMS lite",
+				"Cosmetic",
+				"filaments",
+				"For A1 Series",
+				"For P1 Series",
+				"For X1 Series",
+				"Gold",
+				"Gray",
+				"Green",
+				"On Sale",
+				"Purple",
+				"Red"
+			],
+			"publishedAt": "2023-02-15T08:34:18Z",
+			"priceRange": {
+				"maxVariantPrice": {
+					"amount": "28.93"
+				},
+				"minVariantPrice": {
+					"amount": "28.93"
+				}
+			},
+			"featuredImage": {
+				"id": "gid://shopify/ProductImage/54249168208220",
+				"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/Sparklegreen.png?v=1717413555"
+			},
+			"options": [
+				{
+					"id": "gid://shopify/ProductOption/10106268319963",
+					"name": "Type",
+					"values": [
+						"Filament with spool"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/962113929564",
+							"name": "Filament with spool"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/10106268352731",
+					"name": "Size",
+					"values": [
+						"1 kg"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/115863683420",
+							"name": "1 kg"
+						}
+					]
+				},
+				{
+					"id": "gid://shopify/ProductOption/10106268385499",
+					"name": "Color",
+					"values": [
+						"Alpine Green Sparkle (13501)",
+						"Slate Gray Sparkle (13102)",
+						"Royal Purple Sparkle (13700)",
+						"Crimson Red Sparkle (13200)",
+						"Onyx Black Sparkle (13101)",
+						"Classic Gold Sparkle (13402)"
+					],
+					"optionValues": [
+						{
+							"id": "gid://shopify/ProductOptionValue/115863781724",
+							"name": "Alpine Green Sparkle (13501)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/115863716188",
+							"name": "Slate Gray Sparkle (13102)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/115863748956",
+							"name": "Royal Purple Sparkle (13700)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/115863814492",
+							"name": "Crimson Red Sparkle (13200)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/115863847260",
+							"name": "Onyx Black Sparkle (13101)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/4778375512412",
+							"name": "Classic Gold Sparkle (13402)"
+						}
+					]
+				}
+			],
+			"images": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductImage/54249168208220",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/Sparklegreen.png?v=1717413555",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/54271694242140",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLASparkle.jpg?v=1717494865",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/49969349853532",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLASparkle-SlateGray.png?v=1717494865",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/49969349787996",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLASparkle-RoyalPurpleSparkle.png?v=1717491289",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/39340026757339",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/products/PLA-Sparkle_Crimson-Red-Sparkle.png?v=1717491289",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/39340026724571",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/products/PLA-Sparkle_Onyx-Black-Sparkle.png?v=1717491289",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/53971384598876",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/sparklegold.png?v=1717491289",
+						"altText": null
+					}
+				]
+			},
+			"variants": {
+				"nodes": [
+					{
+						"id": "gid://shopify/ProductVariant/43959190880475",
+						"availableForSale": false,
+						"quantityAvailable": 0,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Alpine Green Sparkle (13501)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/54249168208220",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/Sparklegreen.png?v=1717413555",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1 kg / Alpine Green Sparkle (13501)",
+						"sku": "A08-G3-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/46797853163868",
+						"availableForSale": true,
+						"quantityAvailable": 991,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Slate Gray Sparkle (13102)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/49969349853532",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLASparkle-SlateGray.png?v=1717494865",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1 kg / Slate Gray Sparkle (13102)",
+						"sku": "A08-D5-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/46797853032796",
+						"availableForSale": true,
+						"quantityAvailable": 917,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Royal Purple Sparkle (13700)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/49969349787996",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/PLASparkle-RoyalPurpleSparkle.png?v=1717491289",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1 kg / Royal Purple Sparkle (13700)",
+						"sku": "A08-B7-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/43959190913243",
+						"availableForSale": true,
+						"quantityAvailable": 428,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Crimson Red Sparkle (13200)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/39340026757339",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/products/PLA-Sparkle_Crimson-Red-Sparkle.png?v=1717491289",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1 kg / Crimson Red Sparkle (13200)",
+						"sku": "A08-R2-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/43959190946011",
+						"availableForSale": true,
+						"quantityAvailable": 1098,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Onyx Black Sparkle (13101)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/39340026724571",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/products/PLA-Sparkle_Onyx-Black-Sparkle.png?v=1717491289",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1 kg / Onyx Black Sparkle (13101)",
+						"sku": "A08-K2-1.75-1000-SPL"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/48725896266076",
+						"availableForSale": true,
+						"quantityAvailable": 27,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Filament with spool"
+							},
+							{
+								"name": "Size",
+								"value": "1 kg"
+							},
+							{
+								"name": "Color",
+								"value": "Classic Gold Sparkle (13402)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/53971384598876",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/sparklegold.png?v=1717491289",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "28.93"
+						},
+						"title": "Filament with spool / 1 kg / Classic Gold Sparkle (13402)",
+						"sku": "A08-Y1-1.75-1000-SPL"
+					}
+				]
+			},
+			"compareAtPriceRange": {
+				"maxVariantPrice": {
+					"amount": "0.0"
+				},
+				"minVariantPrice": {
+					"amount": "0.0"
+				}
+			}
+		}
+	},
+	"extensions": {
+		"context": {
+			"country": "PT",
+			"language": "EN"
+		}
+	}
+}
