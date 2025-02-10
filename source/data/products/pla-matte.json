@@ -95,7 +95,15 @@
 						"Matte Dark Brown (11801)",
 						"Matte Dark Green (11501)",
 						"Matte Dark Blue (11602)",
-						"Matte Charcoal (11101)"
+						"Matte Charcoal (11101)",
+						"Matte Bone White (11103)",
+						"Matte Plum (11204)",
+						"Matte Sky Blue (11603)",
+						"Matte Apple Green (11502)",
+						"Matte Dark Chocolate (11802)",
+						"Matte Caramel (11803)",
+						"Matte Terracotta (11203)",
+						"Matte Nardo Gray (11104)"
 					],
 					"optionValues": [
 						{
@@ -165,6 +173,38 @@
 						{
 							"id": "gid://shopify/ProductOptionValue/1009562026332",
 							"name": "Matte Charcoal (11101)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8997741330780",
+							"name": "Matte Bone White (11103)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8997741363548",
+							"name": "Matte Plum (11204)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8997741396316",
+							"name": "Matte Sky Blue (11603)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8997741429084",
+							"name": "Matte Apple Green (11502)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8997741461852",
+							"name": "Matte Dark Chocolate (11802)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8997741494620",
+							"name": "Matte Caramel (11803)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8997741527388",
+							"name": "Matte Terracotta (11203)"
+						},
+						{
+							"id": "gid://shopify/ProductOptionValue/8997741560156",
+							"name": "Matte Nardo Gray (11104)"
 						}
 					]
 				}
@@ -260,6 +300,46 @@
 						"id": "gid://shopify/ProductImage/39339985862875",
 						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/products/PLA-Matte_Charcoal.png?v=1717491277",
 						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/73130770825564",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/7_890c24b1-12ea-47e1-908a-c8c8afb2b48c.jpg?v=1738815754",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/73130771480924",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/6_f72c2422-d7b7-4097-94a8-5d03ca276299.jpg?v=1738815754",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/73130769711452",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/4_98e0178d-1490-4ba4-81fb-a696a6a5714a.jpg?v=1738815754",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/73130769645916",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/2_29663f78-0df7-4382-b6e7-01fc2bacf724.jpg?v=1738815754",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/73130770563420",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/3_aa1c9150-6090-4d99-80eb-94e08e1f0838.jpg?v=1738815754",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/73130771251548",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/8.jpg?v=1738815754",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/73130771349852",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/5_3f98d7f9-1567-41c1-93eb-af106f8c77a0.jpg?v=1738815754",
+						"altText": null
+					},
+					{
+						"id": "gid://shopify/ProductImage/73130773774684",
+						"url": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/1_ea5b7083-7377-4995-bef2-6c066be034b2.jpg?v=1738815736",
+						"altText": null
 					}
 				]
 			},
@@ -268,7 +348,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/42996742586587",
 						"availableForSale": true,
-						"quantityAvailable": 2790,
+						"quantityAvailable": 3149,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -300,7 +380,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/42996742815963",
 						"availableForSale": true,
-						"quantityAvailable": 1201,
+						"quantityAvailable": 232,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -332,7 +412,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/42996742619355",
 						"availableForSale": true,
-						"quantityAvailable": 7854,
+						"quantityAvailable": 6125,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -364,7 +444,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/48612736401756",
 						"availableForSale": true,
-						"quantityAvailable": 10247,
+						"quantityAvailable": 9368,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -396,7 +476,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/42996742717659",
 						"availableForSale": true,
-						"quantityAvailable": 2019,
+						"quantityAvailable": 1240,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -428,7 +508,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/42996742652123",
 						"availableForSale": true,
-						"quantityAvailable": 1369,
+						"quantityAvailable": 988,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -460,7 +540,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/42996742684891",
 						"availableForSale": true,
-						"quantityAvailable": 1531,
+						"quantityAvailable": 774,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -492,7 +572,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/42996742783195",
 						"availableForSale": true,
-						"quantityAvailable": 765,
+						"quantityAvailable": 1129,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -524,7 +604,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/42996742881499",
 						"availableForSale": true,
-						"quantityAvailable": 3232,
+						"quantityAvailable": 2621,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -556,7 +636,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/42996751073499",
 						"availableForSale": true,
-						"quantityAvailable": 602,
+						"quantityAvailable": 9,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -588,7 +668,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/42996742914267",
 						"availableForSale": true,
-						"quantityAvailable": 2014,
+						"quantityAvailable": 1490,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -620,7 +700,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/42996742848731",
 						"availableForSale": true,
-						"quantityAvailable": 2341,
+						"quantityAvailable": 1677,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -652,7 +732,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/47794659164508",
 						"availableForSale": true,
-						"quantityAvailable": 8781,
+						"quantityAvailable": 8195,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -684,7 +764,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/47794659426652",
 						"availableForSale": true,
-						"quantityAvailable": 2573,
+						"quantityAvailable": 2509,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -716,7 +796,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/47794659656028",
 						"availableForSale": true,
-						"quantityAvailable": 4784,
+						"quantityAvailable": 3575,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -748,7 +828,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/47794659688796",
 						"availableForSale": true,
-						"quantityAvailable": 10238,
+						"quantityAvailable": 9434,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -780,7 +860,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/42996742750427",
 						"availableForSale": true,
-						"quantityAvailable": 7086,
+						"quantityAvailable": 4202,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -810,9 +890,265 @@
 						"sku": "A01-K1-1.75-1000-splfree"
 					},
 					{
+						"id": "gid://shopify/ProductVariant/53926028607836",
+						"availableForSale": true,
+						"quantityAvailable": 7127,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Refill"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Matte Bone White (11103)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/73130770825564",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/7_890c24b1-12ea-47e1-908a-c8c8afb2b48c.jpg?v=1738815754",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "23.76"
+						},
+						"title": "Refill / 1kg / Matte Bone White (11103)",
+						"sku": "A01-W3-1.75-1000-SPLFREE"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/53926028640604",
+						"availableForSale": true,
+						"quantityAvailable": 1346,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Refill"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Matte Plum (11204)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/73130771480924",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/6_f72c2422-d7b7-4097-94a8-5d03ca276299.jpg?v=1738815754",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "23.76"
+						},
+						"title": "Refill / 1kg / Matte Plum (11204)",
+						"sku": "A01-R3-1.75-1000-SPLFREE"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/53926028673372",
+						"availableForSale": true,
+						"quantityAvailable": 2340,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Refill"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Matte Sky Blue (11603)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/73130769711452",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/4_98e0178d-1490-4ba4-81fb-a696a6a5714a.jpg?v=1738815754",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "23.76"
+						},
+						"title": "Refill / 1kg / Matte Sky Blue (11603)",
+						"sku": "A01-B0-1.75-1000-SPLFREE"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/53926028706140",
+						"availableForSale": true,
+						"quantityAvailable": 3176,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Refill"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Matte Apple Green (11502)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/73130769645916",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/2_29663f78-0df7-4382-b6e7-01fc2bacf724.jpg?v=1738815754",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "23.76"
+						},
+						"title": "Refill / 1kg / Matte Apple Green (11502)",
+						"sku": "A01-G0-1.75-1000-SPLFREE"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/53926028738908",
+						"availableForSale": true,
+						"quantityAvailable": 4245,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Refill"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Matte Dark Chocolate (11802)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/73130770563420",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/3_aa1c9150-6090-4d99-80eb-94e08e1f0838.jpg?v=1738815754",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "23.76"
+						},
+						"title": "Refill / 1kg / Matte Dark Chocolate (11802)",
+						"sku": "A01-N0-1.75-1000-SPLFREE"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/53926028771676",
+						"availableForSale": true,
+						"quantityAvailable": 4240,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Refill"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Matte Caramel (11803)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/73130771251548",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/8.jpg?v=1738815754",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "23.76"
+						},
+						"title": "Refill / 1kg / Matte Caramel (11803)",
+						"sku": "A01-N3-1.75-1000-SPLFREE"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/53926028804444",
+						"availableForSale": true,
+						"quantityAvailable": 2542,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Refill"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Matte Terracotta (11203)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/73130771349852",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/5_3f98d7f9-1567-41c1-93eb-af106f8c77a0.jpg?v=1738815754",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "23.76"
+						},
+						"title": "Refill / 1kg / Matte Terracotta (11203)",
+						"sku": "A01-R2-1.75-1000-SPLFREE"
+					},
+					{
+						"id": "gid://shopify/ProductVariant/53926028837212",
+						"availableForSale": true,
+						"quantityAvailable": 5725,
+						"compareAtPrice": null,
+						"selectedOptions": [
+							{
+								"name": "Type",
+								"value": "Refill"
+							},
+							{
+								"name": "Size",
+								"value": "1kg"
+							},
+							{
+								"name": "Color",
+								"value": "Matte Nardo Gray (11104)"
+							}
+						],
+						"currentlyNotInStock": false,
+						"featured_image": {
+							"id": "gid://shopify/ProductImage/73130773774684",
+							"src": "https://cdn.shopify.com/s/files/1/0645/5876/0155/files/1_ea5b7083-7377-4995-bef2-6c066be034b2.jpg?v=1738815736",
+							"altText": null
+						},
+						"price": {
+							"currencyCode": "EUR",
+							"amount": "23.76"
+						},
+						"title": "Refill / 1kg / Matte Nardo Gray (11104)",
+						"sku": "A01-D0-1.75-1000-SPLFREE"
+					},
+					{
 						"id": "gid://shopify/ProductVariant/43992833229019",
 						"availableForSale": true,
-						"quantityAvailable": 10532,
+						"quantityAvailable": 11388,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -844,7 +1180,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/43992833327323",
 						"availableForSale": true,
-						"quantityAvailable": 7401,
+						"quantityAvailable": 5784,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -876,7 +1212,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/46893218038108",
 						"availableForSale": true,
-						"quantityAvailable": 2961,
+						"quantityAvailable": 2304,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -908,7 +1244,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/43992833360091",
 						"availableForSale": true,
-						"quantityAvailable": 1955,
+						"quantityAvailable": 977,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -940,7 +1276,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/43992833294555",
 						"availableForSale": true,
-						"quantityAvailable": 3154,
+						"quantityAvailable": 2442,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
@@ -972,7 +1308,7 @@
 					{
 						"id": "gid://shopify/ProductVariant/43992833261787",
 						"availableForSale": true,
-						"quantityAvailable": 11865,
+						"quantityAvailable": 9631,
 						"compareAtPrice": null,
 						"selectedOptions": [
 							{
