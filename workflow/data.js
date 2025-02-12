@@ -1,206 +1,278 @@
 import {mkdirSync, existsSync, writeFileSync} from 'node:fs';
-import {join} from 'node:path';
 
-import {globbySync} from 'globby';
+import puppeteer from 'puppeteer';
 import sharp from 'sharp';
+import {parse} from 'acorn';
+import {simple} from 'acorn-walk';
 
-import colors from '../source/data/colors.json' with {type: 'json'};
+import overrides from '../source/data/overrides.js';
 
 
 
+async function handleRequests(page) {
+	await page.setRequestInterception(true);
 
-function data() {
-	const paths = globbySync('./data/products/*.json', {
-		cwd: './source/',
+	page.on('request', request => {
+		if (!['document', 'xhr', 'fetch', 'script'].includes(request.resourceType())) {
+			return request.abort();
+		}
+
+		request.continue();
 	});
+}
 
-	return Promise.all(paths.map(path => new Promise(async (resolve, reject) => {
+
+
+async function fetchData() {
+	const result = {
+		data: {},
+		colors: undefined,
+	};
+
+	const browser = await puppeteer.launch();
+	const page = await browser.newPage();
+
+	await handleRequests(page);
+
+	await page.goto('https://store.bambulab.com/collections/bambu-lab-3d-printer-filament');
+
+	const menu = await page.$$('.Header__MainNav .HorizontalList__Item')
+		.then(menus => Promise.all(menus.map(async menu => ({
+			text: await menu.$eval(':scope > a.Heading', node => node.textContent.trim()),
+			menu,
+		}))))
+		.then(items => items.find(({text}) => text === 'Filament').menu);
+
+	const groups = await menu.$$('.LevelTwoLinklist__Item')
+		.then(groups => Promise.all(groups.map(async group => ({
+			...await group.$eval(':scope > a', node => ({
+				name: node.textContent.trim(),
+				url: node.toString(),
+			})),
+			group,
+		}))))
+		.then(items => {
+			const filteredItems = items.filter(({name}) => !overrides.ignoredGroupsRegex.test(name));
+
+			for (const item of filteredItems) {
+				result.data[item.url.split('/').at(-1)] = {
+					name: item.name,
+					url: item.url,
+					items: {},
+				};
+			}
+
+			return filteredItems;
+		});
+
+	return Promise.all(groups.map(group => new Promise(async (resolve, reject) => {
 		try {
-			const {default: data} = await import(join('../source', path), {
-				with: {
-					type: 'json',
-				},
-			});
+			const links = await group.group.$$eval(':scope .Linklist .Link', nodes => nodes
+				.map(node => ({
+					name: node.querySelector('.LevelThreeText').textContent.trim(),
+					url: node.toString(),
+				}))
+				.filter(link => !link.url.includes('cmyk')),
+			);
 
-			const result = {
-				handle: data.data.product.handle,
-				title: data.data.product.title,
-				url: data.data.product.onlineStoreUrl
-					.replace('/\/\/\w+\.store.bambulab.com/\w+-\w+\/', '//store.bambulab.com/'),
-				variants: data.data.product.variants.nodes.map(variant => {
-					const {groups: {name, code}} = variant.selectedOptions
-						.find(option => option.name === 'Color')
-						.value.match(/(?<name>.+?)\s?\((?<code>.+?)\)/);
+			Promise.all(links.map(link => new Promise(async (resolve, reject) => {
+				try {
+					result.data[group.url.split('/').at(-1)].items[link.url.split('/').at(-1)] = {...link};
 
-					return {
-						id: variant.id.split('/').at(-1),
-						image: variant.featured_image.src,
-						name,
-						code,
-						type: variant.selectedOptions
-							.find(option => option.name === 'Type')
-							.value,
-						colors: colors[code].split(';'),
-					}
-				}),
-			};
-			resolve(result);
+					const itemPage = await browser.newPage();
+
+					await handleRequests(itemPage);
+
+					itemPage.on('response', async response => {
+						if (response.url().endsWith('api/2024-07/graphql.json')) {
+							response.json()
+								.then(async data => {
+									result.data[group.url.split('/').at(-1)].items[link.url.split('/').at(-1)].data = data;
+
+									await itemPage.close();
+
+									resolve();
+								});
+						} else if (response.url().includes('recommend-products-v2.js') && !result.colors) {
+							response.text()
+								.then(data => {
+									simple(
+										parse(data, {
+											ecmaVersion: 'latest',
+										}),
+										{
+											VariableDeclaration(node) {
+												const colorCodes = node.declarations
+													.find(declaration => declaration.id.name === 'colorCodes')
+													?.init.properties
+													.map(property => [property.key.value, property.value.value]);
+
+												if (colorCodes) {
+													result.colors = Object.fromEntries(colorCodes);
+												}
+											},
+										},
+									);
+								});
+						}
+					});
+
+					await itemPage.goto(link.url);
+				} catch (error) {
+					reject(error);
+				}
+			})))
+				.then(() => {
+					resolve();
+				});
 		} catch (error) {
 			reject(error);
 		}
 	})))
-		.then(async data => {
-			for (const product of data) {
-				product.variants.sort((a, b) => a.code - b.code);
-			}
+		.then(async () => {
+			await browser.close();
 
-			data.sort((a, b) => a.variants[0].code - b.variants[0].code);
+			return result;
+		});
+}
+
+
+
+function cleanUrl(string) {
+	return string.replace(
+		/\/\/\w+\.store\.bambulab\.com\/\w+-\w+\//,
+		'//store.bambulab.com/',
+	);
+}
+
+
+
+async function data() {
+	const {data, colors} = await fetchData();
+
+	const result = {
+		headerGroups: {},
+		hues: {
+			1: {
+				name: 'Neutral',
+				tones: {},
+			},
+			2: {
+				name: 'Red',
+				tones: {},
+			},
+			3: {
+				name: 'Orange',
+				tones: {},
+			},
+			4: {
+				name: 'Yellow',
+				tones: {},
+			},
+			5: {
+				name: 'Green',
+				tones: {},
+			},
+			6: {
+				name: 'Blue',
+				tones: {},
+			},
+			7: {
+				name: 'Purple',
+				tones: {},
+			},
+			8: {
+				name: 'Brown',
+				tones: {},
+			},
+			9: {
+				name: 'Other',
+				tones: {},
+			},
+		},
+	};
+
+	for (const [groupId, group] of Object.entries(data)) {
+		result.headerGroups[groupId] = {
+			name: group.name,
+			url: cleanUrl(group.url),
+			headers: {},
+		};
+
+		for (const [itemId, item] of Object.entries(group.items)) {
+			result.headerGroups[groupId].headers[itemId] = {
+				name: item.name.replace(new RegExp(`^${group.name}(?:-|\\s+for)?`), '').trim(),
+				url: cleanUrl(item.url),
+			};
 
 			mkdirSync('./build/images', {
 				recursive: true,
 			});
 
-			for (const product of data) {
-				for (const variant of product.variants) {
-					if (!existsSync(`./build/images/${variant.code}.webp`)) {
-						const response = await fetch(variant.image);
-						const arrayBuffer = await response.arrayBuffer();
+			item.data.data.product.variants.nodes.sort((a, b) =>
+				a.selectedOptions.find(option => option.name === 'Type').value
+				- b.selectedOptions.find(option => option.name === 'Type').value,
+			);
 
-						const image = sharp(arrayBuffer)
+			for (const variant of item.data.data.product.variants.nodes) {
+				let {groups: {name, code}} = variant.selectedOptions
+					.find(option => option.name === 'Color')
+					.value.match(/(?<name>.+?)\s?\((?<code>.+?)\)/);
+
+				if (overrides.codes[code]) {
+					code = overrides.codes[code];
+				}
+
+				const hueCode = Number.parseInt(code.toString().slice(2, 3), 10);
+				const toneCode = Number.parseInt(code.toString().slice(3), 10);
+
+				if (result.hues[hueCode].tones[toneCode] === undefined) {
+					result.hues[hueCode].tones[toneCode] = {};
+				}
+
+				if (result.hues[hueCode].tones[toneCode][itemId] === undefined) {
+					result.hues[hueCode].tones[toneCode][itemId] = {
+						name,
+						code,
+						colors: (overrides.colors[code] || colors[code]).split(';'),
+						group: groupId,
+						types: [],
+					};
+				}
+
+				result.hues[hueCode].tones[toneCode][itemId].types.push({
+					name: variant.selectedOptions.find(option => option.name === 'Type').value
+						+ ' ('
+						+ variant.selectedOptions.find(option => option.name === 'Size').value
+						+ ')',
+					url: `${cleanUrl(item.url)}?variant=${variant.id.split('/').at(-1)}`,
+				});
+
+				if (!existsSync(`./build/images/${code}.webp`)) {
+					fetch(variant.featured_image.src)
+						.then(response => response.arrayBuffer())
+						.then(arrayBuffer => sharp(arrayBuffer)
 							.resize({
 								width: 64 * 2,
 							})
 							.webp()
-							.toFile(`./build/images/${variant.code}.webp`)
-							.then(() => []);
-					}
-
-					delete variant.image;
+							.toFile(`./build/images/${code}.webp`),
+						);
 				}
 			}
+		}
+	}
 
-			const result = {
-				headerGroups: {
-					pla: {
-						name: 'PLA',
-						pattern: /^PLA/,
-						headers: [],
-					},
-					petg: {
-						name: 'PETG',
-						pattern: /^PETG/,
-						headers: [],
-					},
-					'abs-asa': {
-						name: 'ABS/ASA',
-						pattern: /^(ABS|ASA)/,
-						headers: [],
-					},
-					'pc-tpu': {
-						name: 'PC/TPU',
-						pattern: /^(PC|TPU)/,
-						headers: [],
-					},
-					'pa-pet': {
-						name: 'PA/PET',
-						pattern: /^(PA6|PAHT|PPA|PET)/,
-						headers: [],
-					},
-					pps: {
-						name: 'PPS',
-						pattern: /^PPS/,
-						headers: [],
-					},
-					support: {
-						name: 'Support',
-						pattern: /^(Support|PVA)/,
-						headers: [],
-					},
-				},
-				hues: {
-					1: {
-						name: 'Neutral',
-						tones: {},
-					},
-					2: {
-						name: 'Red',
-						tones: {},
-					},
-					3: {
-						name: 'Orange',
-						tones: {},
-					},
-					4: {
-						name: 'Yellow',
-						tones: {},
-					},
-					5: {
-						name: 'Green',
-						tones: {},
-					},
-					6: {
-						name: 'Blue',
-						tones: {},
-					},
-					7: {
-						name: 'Purple',
-						tones: {},
-					},
-					8: {
-						name: 'Brown',
-						tones: {},
-					},
-					9: {
-						name: 'Other',
-						tones: {},
-					},
-				},
-			};
+	result.time = Date.now();
 
-			for (const product of data) {
-				const [headerGroup] = Object.entries(result.headerGroups)
-					.find(([_, headerGroupData]) => headerGroupData.pattern.test(product.title));
+	writeFileSync(
+		'./source/data/data.generated.jsonc',
+		'// This file is generated and is used only for diff purposes.\n'
+			+ JSON.stringify(result, null, 2),
+	);
 
-				const name = product.title
-					.replace(result.headerGroups[headerGroup].pattern, '')
-					.replace(/^-/, '')
-					.trim();
-
-				result.headerGroups[headerGroup].headers.push({
-					handle: product.handle,
-					name: name.length > 0 ? name : product.title,
-					url: product.url,
-				});
-
-
-				for (const variant of product.variants) {
-					const hueCode = Number.parseInt(variant.code.toString().slice(2, 3), 10);
-					const toneCode = Number.parseInt(variant.code.toString().slice(3), 10);
-
-					if (result.hues[hueCode].tones[toneCode] === undefined) {
-						result.hues[hueCode].tones[toneCode] = {};
-					}
-
-					if (result.hues[hueCode].tones[toneCode][product.handle] == undefined) {
-						result.hues[hueCode].tones[toneCode][product.handle] = {
-							name: variant.name,
-							code: variant.code,
-							colors: variant.colors,
-							group: headerGroup,
-							types: [],
-						};
-					}
-
-					result.hues[hueCode].tones[toneCode][product.handle].types.push({
-						name: variant.type,
-						url: `${product.url}?variant=${variant.id}`,
-					});
-				}
-			}
-
-			writeFileSync('./build/data.json', JSON.stringify(result));
-		});
-};
+	writeFileSync('./build/data.json', JSON.stringify(result));
+}
 
 
 

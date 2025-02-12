@@ -23,7 +23,7 @@ function files() {
 			reject(error);
 		}
 	})));
-};
+}
 
 
 
