@@ -23,7 +23,7 @@ const now = new Date();
 const relativeTimeFormat = new Intl.RelativeTimeFormat("en", {
 	numeric: 'auto',
 });
-const timeDiff = Math.round((data.time - now.getTime()) / 1000 / 60 / 60);
+const timeDiff = Math.round((data.time - now.getTime()) / 1000 / 60 / 60 / 24);
 
 time.dateTime = updateTime;
 time.title = updateTime;
