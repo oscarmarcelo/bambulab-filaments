@@ -2,6 +2,8 @@ import data from './data.json' with {type: 'json'};
 
 
 
+const time = document.querySelector('.intro time');
+
 const tableHeadGroup = document.querySelector('thead tr:first-child');
 const tableHead = document.querySelector('thead tr:last-child');
 const tableBody = document.querySelector('tbody');
@@ -15,27 +17,45 @@ const typeTemplate = document.querySelector('#type');
 
 
 
+// Fill update time.
+const updateTime = new Date(data.time);
+const now = new Date();
+const relativeTimeFormat = new Intl.RelativeTimeFormat("en", {
+	numeric: 'auto',
+});
+const timeDiff = Math.round((data.time - now.getTime()) / 1000 / 60 / 60);
+
+time.dateTime = updateTime;
+time.title = updateTime;
+time.textContent = relativeTimeFormat.format(timeDiff, 'days');
+
+
+
 // Build Table Head.
 const tableHeadGroupFragment = new DocumentFragment();
 const tableHeadFragment = new DocumentFragment();
 
 for (const [group, headerGroup] of Object.entries(data.headerGroups)) {
-	const headFragment = headLinkTemplate.content.cloneNode(true);
+	const headLinkFragment = headLinkTemplate.content.cloneNode(true);
 
-	const th = headFragment.querySelector('th');
+	const th = headLinkFragment.querySelector('th');
 
-	th.colSpan = headerGroup.headers.length;
+	th.colSpan = Object.keys(headerGroup.headers).length;
 	th.dataset.group = group;
 	th.classList.add('separator');
-	th.textContent = headerGroup.name;
 
-	tableHeadGroupFragment.append(headFragment);
+	const link = headLinkFragment.querySelector('a');
+
+	link.href = headerGroup.url;
+	link.textContent = headerGroup.name;
+
+	tableHeadGroupFragment.append(headLinkFragment);
 
 	tableHeadGroupFragment.append(tableHeadGroupFragment);
 
 	let separator = true;
 
-	for (const header of headerGroup.headers) {
+	for (const [id, header] of Object.entries(headerGroup.headers)) {
 		const headLinkFragment = headLinkTemplate.content.cloneNode(true);
 
 		const th = headLinkFragment.querySelector('th');
@@ -45,7 +65,7 @@ for (const [group, headerGroup] of Object.entries(data.headerGroups)) {
 		}
 
 		th.dataset.group = group;
-		th.dataset.handle = header.handle;
+		th.dataset.item = id;
 
 		const link = headLinkFragment.querySelector('a');
 
@@ -83,14 +103,14 @@ for (const hue of Object.values(data.hues)) {
 		for (const [group, headerGroup] of Object.entries(data.headerGroups)) {
 			let separator = true;
 
-			for (const header of headerGroup.headers) {
-				const variant = tone[header.handle];
+			for (const [id, header] of Object.entries(headerGroup.headers)) {
+				const variant = tone[id];
 
 				const cellFragment = cellTemplate.content.cloneNode(true);
 
 				const td = cellFragment.querySelector('td');
 				td.dataset.group = group;
-				td.dataset.handle = header.handle;
+				td.dataset.item = id;
 
 				if (separator) {
 					td.classList.add('separator');
