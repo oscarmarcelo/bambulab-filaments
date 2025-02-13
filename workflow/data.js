@@ -263,13 +263,13 @@ async function data() {
 		}
 	}
 
-	result.time = Date.now();
-
 	writeFileSync(
 		'./source/data/data.generated.jsonc',
 		'// This file is generated and is used only for diff purposes.\n'
 			+ JSON.stringify(result, null, 2),
 	);
+
+	result.time = Date.now();
 
 	writeFileSync('./build/data.json', JSON.stringify(result));
 }
