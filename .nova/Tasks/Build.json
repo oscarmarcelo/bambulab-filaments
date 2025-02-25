@@ -8,5 +8,6 @@
       "enabled" : true,
       "script" : "npm run clear"
     }
-  }
+  },
+  "openLogOnRun" : "fail"
 }
