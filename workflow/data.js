@@ -29,7 +29,7 @@ async function fetchData() {
 		colors: undefined,
 	};
 
-	const browser = await puppeteer.launch({headless: false});
+	const browser = await puppeteer.launch();
 	const page = await browser.newPage();
 
 	await handleRequests(page);
