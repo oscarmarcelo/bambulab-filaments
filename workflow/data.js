@@ -29,7 +29,7 @@ async function fetchData() {
 		colors: undefined,
 	};
 
-	const browser = await puppeteer.launch();
+	const browser = await puppeteer.launch({headless: false});
 	const page = await browser.newPage();
 
 	await handleRequests(page);
@@ -84,7 +84,7 @@ async function fetchData() {
 					await handleRequests(itemPage);
 
 					itemPage.on('response', async response => {
-						if (response.url().endsWith('api/2024-07/graphql.json')) {
+						if (/api\/\d{4}-\d{2}\/graphql\.json$/.test(response.url())) {
 							response.json()
 								.then(async data => {
 									result.data[group.url.split('/').at(-1)].items[link.url.split('/').at(-1)].data = data;
