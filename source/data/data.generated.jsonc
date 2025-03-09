@@ -1103,20 +1103,6 @@
               }
             ]
           },
-          "pla-silk": {
-            "name": "Silver",
-            "code": "13104",
-            "colors": [
-              "#EAECEB"
-            ],
-            "group": "pla",
-            "types": [
-              {
-                "name": "Filament with spool (1 kg)",
-                "url": "https://store.bambulab.com/products/pla-silk?variant=46636020564316"
-              }
-            ]
-          },
           "pla-aero": {
             "name": "Gray",
             "code": "14104",
@@ -1543,20 +1529,6 @@
                 "url": "https://store.bambulab.com/products/pla-matte?variant=47794659164508"
               }
             ]
-          },
-          "pla-silk": {
-            "name": "Pink",
-            "code": "13202",
-            "colors": [
-              "#EEB1C1"
-            ],
-            "group": "pla",
-            "types": [
-              {
-                "name": "Filament with spool (1 kg)",
-                "url": "https://store.bambulab.com/products/pla-silk?variant=47301585043804"
-              }
-            ]
           }
         },
         "3": {
@@ -1748,20 +1720,6 @@
               {
                 "name": "Filament with spool (1kg)",
                 "url": "https://store.bambulab.com/products/pla-matte?variant=46893218038108"
-              }
-            ]
-          },
-          "pla-silk": {
-            "name": "Copper",
-            "code": "13300",
-            "colors": [
-              "#5E4B3C"
-            ],
-            "group": "pla",
-            "types": [
-              {
-                "name": "Filament with spool (1 kg)",
-                "url": "https://store.bambulab.com/products/pla-silk?variant=46636020597084"
               }
             ]
           },
@@ -2029,20 +1987,6 @@
               {
                 "name": "Refill (1kg)",
                 "url": "https://store.bambulab.com/products/pla-matte?variant=48612736401756"
-              }
-            ]
-          },
-          "pla-silk": {
-            "name": "Gold",
-            "code": "13401",
-            "colors": [
-              "#E5B03D"
-            ],
-            "group": "pla",
-            "types": [
-              {
-                "name": "Filament with spool (1 kg)",
-                "url": "https://store.bambulab.com/products/pla-silk?variant=46636020531548"
               }
             ]
           },
@@ -2456,20 +2400,6 @@
               {
                 "name": "Refill (1kg)",
                 "url": "https://store.bambulab.com/products/pla-matte?variant=53926028706140"
-              }
-            ]
-          },
-          "pla-silk": {
-            "name": "Green",
-            "code": "13502",
-            "colors": [
-              "#4CE4A0"
-            ],
-            "group": "pla",
-            "types": [
-              {
-                "name": "Filament with spool (1 kg)",
-                "url": "https://store.bambulab.com/products/pla-silk?variant=47301585109340"
               }
             ]
           },
@@ -3150,20 +3080,6 @@
               {
                 "name": "Filament with spool (1kg)",
                 "url": "https://store.bambulab.com/products/pla-basic-filament?variant=53951741821276"
-              }
-            ]
-          },
-          "pla-silk": {
-            "name": "Purple",
-            "code": "13701",
-            "colors": [
-              "#854CE4"
-            ],
-            "group": "pla",
-            "types": [
-              {
-                "name": "Filament with spool (1 kg)",
-                "url": "https://store.bambulab.com/products/pla-silk?variant=47301585142108"
               }
             ]
           }
