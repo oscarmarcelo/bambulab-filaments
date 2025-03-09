@@ -54,7 +54,7 @@
 				"error",
 				{
 					"styles": {
-						"path": {
+						"node:path": {
 							"named": true
 						}
 					}
