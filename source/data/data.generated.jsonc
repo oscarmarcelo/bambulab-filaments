@@ -119,6 +119,10 @@
           "name": "TPU 95A HF",
           "url": "https://store.bambulab.com/products/tpu-95a-hf"
         },
+        "tpu-85a-tpu-90a": {
+          "name": "TPU 85A/TPU 90A",
+          "url": "https://store.bambulab.com/products/tpu-85a-tpu-90a"
+        },
         "pc-filament": {
           "name": "PC",
           "url": "https://store.bambulab.com/products/pc-filament"
@@ -1031,6 +1035,20 @@
               }
             ]
           },
+          "tpu-85a-tpu-90a": {
+            "name": "Black",
+            "code": "51103",
+            "colors": [
+              "#000000"
+            ],
+            "group": "pc-tpu",
+            "types": [
+              {
+                "name": "TPU 90A (1 kg)",
+                "url": "https://store.bambulab.com/products/tpu-85a-tpu-90a?variant=54085774541148"
+              }
+            ]
+          },
           "pc-filament": {
             "name": "Transparent",
             "code": "60103",
@@ -1158,6 +1176,20 @@
               {
                 "name": "Filament with spool (1 kg)",
                 "url": "https://store.bambulab.com/products/pla-silk?variant=47301585076572"
+              }
+            ]
+          },
+          "tpu-85a-tpu-90a": {
+            "name": "White",
+            "code": "51105",
+            "colors": [
+              "#FFFFFF"
+            ],
+            "group": "pc-tpu",
+            "types": [
+              {
+                "name": "TPU 90A (1 kg)",
+                "url": "https://store.bambulab.com/products/tpu-85a-tpu-90a?variant=54085774475612"
               }
             ]
           }
@@ -1813,6 +1845,22 @@
               }
             ]
           }
+        },
+        "5": {
+          "tpu-85a-tpu-90a": {
+            "name": "Neon Orange",
+            "code": "51305",
+            "colors": [
+              "#F68B1B"
+            ],
+            "group": "pc-tpu",
+            "types": [
+              {
+                "name": "TPU 85A (1 kg)",
+                "url": "https://store.bambulab.com/products/tpu-85a-tpu-90a?variant=54085774410076"
+              }
+            ]
+          }
         }
       }
     },
@@ -2258,6 +2306,20 @@
               {
                 "name": "Filament with spool (1 kg)",
                 "url": "https://store.bambulab.com/products/tpu-for-ams?variant=53421837287772"
+              }
+            ]
+          },
+          "tpu-85a-tpu-90a": {
+            "name": "Light Cyan",
+            "code": "51500",
+            "colors": [
+              "#C3E2D6"
+            ],
+            "group": "pc-tpu",
+            "types": [
+              {
+                "name": "TPU 85A (1 kg)",
+                "url": "https://store.bambulab.com/products/tpu-85a-tpu-90a?variant=54085774442844"
               }
             ]
           },
@@ -3301,6 +3363,21 @@
                 "url": "https://store.bambulab.com/products/pla-basic-gradient?variant=46901930492252"
               }
             ]
+          },
+          "tpu-85a-tpu-90a": {
+            "name": "Frozen",
+            "code": "51900",
+            "colors": [
+              "#FFFFFF",
+              "#40B6E4"
+            ],
+            "group": "pc-tpu",
+            "types": [
+              {
+                "name": "TPU 90A (1 kg)",
+                "url": "https://store.bambulab.com/products/tpu-85a-tpu-90a?variant=54085774508380"
+              }
+            ]
           }
         },
         "1": {
@@ -3331,6 +3408,21 @@
               {
                 "name": "Filament with spool (1kg)",
                 "url": "https://store.bambulab.com/products/pla-basic-gradient?variant=46901930525020"
+              }
+            ]
+          },
+          "tpu-85a-tpu-90a": {
+            "name": "Blaze",
+            "code": "51901",
+            "colors": [
+              "#F1AAA8",
+              "#D21B3C"
+            ],
+            "group": "pc-tpu",
+            "types": [
+              {
+                "name": "TPU 90A (1 kg)",
+                "url": "https://store.bambulab.com/products/tpu-85a-tpu-90a?variant=54084062511452"
               }
             ]
           }

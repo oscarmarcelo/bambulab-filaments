@@ -210,8 +210,8 @@ async function data() {
 			});
 
 			item.data.data.product.variants.nodes.sort((a, b) =>
-				a.selectedOptions.find(option => option.name === 'Type').value
-				- b.selectedOptions.find(option => option.name === 'Type').value,
+				a.selectedOptions.find(option => ['Type', 'Product'].includes(option.name)).value
+				- b.selectedOptions.find(option => ['Type', 'Product'].includes(option.name)).value,
 			);
 
 			for (const variant of item.data.data.product.variants.nodes) {
@@ -241,7 +241,7 @@ async function data() {
 				}
 
 				result.hues[hueCode].tones[toneCode][itemId].types.push({
-					name: variant.selectedOptions.find(option => option.name === 'Type').value
+					name: variant.selectedOptions.find(option => ['Type', 'Product'].includes(option.name)).value
 						+ ' ('
 						+ variant.selectedOptions.find(option => option.name === 'Size').value
 						+ ')',
