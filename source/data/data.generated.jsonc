@@ -173,6 +173,10 @@
       "name": "Support",
       "url": "https://store.bambulab.com/collections/support",
       "headers": {
+        "support-for-pla-new": {
+          "name": "PLA (New Edition)",
+          "url": "https://store.bambulab.com/products/support-for-pla-new"
+        },
         "support-for-pla-petg": {
           "name": "PLA/PETG",
           "url": "https://store.bambulab.com/products/support-for-pla-petg"
@@ -1146,6 +1150,20 @@
               {
                 "name": "Filament with spool (1 kg)",
                 "url": "https://store.bambulab.com/products/pa6-gf?variant=47833416335708"
+              }
+            ]
+          },
+          "support-for-pla-new": {
+            "name": "White",
+            "code": "65104",
+            "colors": [
+              "#FFFFFF"
+            ],
+            "group": "support",
+            "types": [
+              {
+                "name": "Filament with spool (0.5 kg)",
+                "url": "https://store.bambulab.com/products/support-for-pla-new?variant=54200625725788"
               }
             ]
           }
