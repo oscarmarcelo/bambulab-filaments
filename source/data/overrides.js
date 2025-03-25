@@ -1,5 +1,5 @@
 const overrides = {
-	ignoredGroupsRegex: /(Bundles|Arrivals|Fiber|Accessories)/,
+	ignoredGroupsRegex: /(Price Drop|Bundles|Arrivals|Fiber|Accessories)/,
 	codes: {
 		'Pink-Gold': 13_901,
 		'Blue-Red': 13_902,
