@@ -85,9 +85,19 @@ async function fetchData() {
 
 					itemPage.on('response', async response => {
 						if (/api\/\d{4}-\d{2}\/graphql\.json$/.test(response.url())) {
-							response.json()
+							response.text()
 								.then(async data => {
-									result.data[group.url.split('/').at(-1)].items[link.url.split('/').at(-1)].data = data;
+									const matches = [
+										...data
+											.matchAll(/--graphql(?:\r?\n[\w-]+: .+)*(?:\r?\n)+(?<data>.+)/g),
+									]
+										.map(match => JSON.parse(match.groups.data)); // eslint-disable-line max-nested-callbacks
+
+									const content = matches[0];
+
+									content.data.product.variants = matches[1].incremental[0].data.variants;
+
+									result.data[group.url.split('/').at(-1)].items[link.url.split('/').at(-1)].data = content;
 
 									await itemPage.close();
 
