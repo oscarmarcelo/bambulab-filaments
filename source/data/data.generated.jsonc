@@ -17,6 +17,10 @@
           "name": "Silk+",
           "url": "https://store.bambulab.com/products/pla-silk-upgrade"
         },
+        "pla-translucent": {
+          "name": "Translucent",
+          "url": "https://store.bambulab.com/products/pla-translucent"
+        },
         "pla-wood": {
           "name": "Wood",
           "url": "https://store.bambulab.com/products/pla-wood"
@@ -1716,6 +1720,38 @@
               }
             ]
           }
+        },
+        "10": {
+          "pla-translucent": {
+            "name": "Red",
+            "code": "13210",
+            "colors": [
+              "#B50011"
+            ],
+            "group": "pla",
+            "types": [
+              {
+                "name": "Filament with spool (1 kg)",
+                "url": "https://store.bambulab.com/products/pla-translucent?variant=54345716695388"
+              }
+            ]
+          }
+        },
+        "11": {
+          "pla-translucent": {
+            "name": "Cherry Pink",
+            "code": "13211",
+            "colors": [
+              "#F5B6CD"
+            ],
+            "group": "pla",
+            "types": [
+              {
+                "name": "Filament with spool (1 kg)",
+                "url": "https://store.bambulab.com/products/pla-translucent?variant=54407223050588"
+              }
+            ]
+          }
         }
       }
     },
@@ -1842,6 +1878,20 @@
               {
                 "name": "Filament with spool (1kg)",
                 "url": "https://store.bambulab.com/products/pla-basic-filament?variant=53951744213340"
+              }
+            ]
+          },
+          "pla-translucent": {
+            "name": "Orange",
+            "code": "13301",
+            "colors": [
+              "#F74E02"
+            ],
+            "group": "pla",
+            "types": [
+              {
+                "name": "Filament with spool (1 kg)",
+                "url": "https://store.bambulab.com/products/pla-translucent?variant=54345716662620"
               }
             ]
           }
@@ -2145,6 +2195,22 @@
               {
                 "name": "Filament with spool (1 kg)",
                 "url": "https://store.bambulab.com/products/pla-silk-upgrade?variant=53583205859676"
+              }
+            ]
+          }
+        },
+        "10": {
+          "pla-translucent": {
+            "name": "Mellow Yellow",
+            "code": "13410",
+            "colors": [
+              "#F5DBAB"
+            ],
+            "group": "pla",
+            "types": [
+              {
+                "name": "Filament with spool (1 kg)",
+                "url": "https://store.bambulab.com/products/pla-translucent?variant=54407223017820"
               }
             ]
           }
@@ -2587,6 +2653,22 @@
               }
             ]
           }
+        },
+        "10": {
+          "pla-translucent": {
+            "name": "Light Jade",
+            "code": "13510",
+            "colors": [
+              "#96D8AF"
+            ],
+            "group": "pla",
+            "types": [
+              {
+                "name": "Filament with spool (1 kg)",
+                "url": "https://store.bambulab.com/products/pla-translucent?variant=54407222985052"
+              }
+            ]
+          }
         }
       }
     },
@@ -3016,6 +3098,54 @@
               }
             ]
           }
+        },
+        "10": {
+          "pla-translucent": {
+            "name": "Ice Blue",
+            "code": "13610",
+            "colors": [
+              "#B8CDE9"
+            ],
+            "group": "pla",
+            "types": [
+              {
+                "name": "Filament with spool (1 kg)",
+                "url": "https://store.bambulab.com/products/pla-translucent?variant=54407223083356"
+              }
+            ]
+          }
+        },
+        "11": {
+          "pla-translucent": {
+            "name": "Blue",
+            "code": "13611",
+            "colors": [
+              "#0047BB"
+            ],
+            "group": "pla",
+            "types": [
+              {
+                "name": "Filament with spool (1 kg)",
+                "url": "https://store.bambulab.com/products/pla-translucent?variant=54345716597084"
+              }
+            ]
+          }
+        },
+        "12": {
+          "pla-translucent": {
+            "name": "Teal",
+            "code": "13612",
+            "colors": [
+              "#009FA1"
+            ],
+            "group": "pla",
+            "types": [
+              {
+                "name": "Filament with spool (1 kg)",
+                "url": "https://store.bambulab.com/products/pla-translucent?variant=54345716564316"
+              }
+            ]
+          }
         }
       }
     },
@@ -3140,6 +3270,38 @@
               {
                 "name": "Filament with spool (1 kg)",
                 "url": "https://store.bambulab.com/products/pla-silk-upgrade?variant=53583205728604"
+              }
+            ]
+          }
+        },
+        "10": {
+          "pla-translucent": {
+            "name": "Purple",
+            "code": "13710",
+            "colors": [
+              "#8344B0"
+            ],
+            "group": "pla",
+            "types": [
+              {
+                "name": "Filament with spool (1 kg)",
+                "url": "https://store.bambulab.com/products/pla-translucent?variant=54345716629852"
+              }
+            ]
+          }
+        },
+        "11": {
+          "pla-translucent": {
+            "name": "Lavender",
+            "code": "13711",
+            "colors": [
+              "#B8ACD6"
+            ],
+            "group": "pla",
+            "types": [
+              {
+                "name": "Filament with spool (1 kg)",
+                "url": "https://store.bambulab.com/products/pla-translucent?variant=54407223116124"
               }
             ]
           }
